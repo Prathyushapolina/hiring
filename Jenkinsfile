@@ -9,7 +9,7 @@ pipeline {
             }
         }
         
-        stage('Docker Build' {
+        stage('Docker Build') {
             steps {
                 sh "docker build -t prathyushapolina/hiring:0.0.2 ."
             }
